@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/navy"
+        android:textSize="20sp"
+        android:text="@string/name"
+        android:layout_marginLeft="5dp"
+        />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_name_title"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:id="@+id/tv_number_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/navy"
+        android:textSize="20sp"
+        android:text="@string/number"
+        android:layout_marginRight="5dp"/>
+    <TextView
+        android:id="@+id/tv_number"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tv_number_title"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:layout_marginRight="5dp"
+        android:autoLink="phone" />
+
+
+</RelativeLayout>

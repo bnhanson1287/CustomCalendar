@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Custom Calendar</string>
+    <string name="current_date">March, 2019</string>
+    <string name="add_event">Add an appointment</string>
+    <string name="sun">SUN</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="last_date">31</string>
+    <string name="name"><u>Name:</u></string>
+    <string name="number"><u>Number:</u></string>
+    <string name="addClient">Add a client</string>
+    <string name="clientList">Client List</string>
+    <string name="homeSchedule">Schedule</string>
+    <string name="dateString">%1$s %2$s</string>
+    <string name="date_display">Appointments for: </string>
+</resources>

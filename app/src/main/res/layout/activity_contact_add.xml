@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_client_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter client name"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/et_client_name"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/tv_client_name"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tv_client_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter client phone number"
+        android:layout_below="@+id/et_client_name"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+    <EditText
+        android:id="@+id/et_client_phone"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/tv_client_phone"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/save_contact_btn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Save"
+        android:layout_below="@+id/et_client_phone"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
